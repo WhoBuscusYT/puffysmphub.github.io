@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="www.puffysmp.org">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      * { font-family: 'Inter', system-ui, sans-serif; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-float { animation: float 6s ease-in-out infinite; }
+    </style>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-white antialiased">
+    
+    <!-- Background Effects -->
+    <div class="fixed inset-0 -z-10">
+      <div class="absolute top-0 left-1/4 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-fuchsia-500/20 rounded-full blur-3xl"></div>
+      <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
+    </div>
+<br<br><br><br><br><br>
+    <h1 style="text-align:center;"class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.1]">
+          PuffySMP
+          <span class="block bg-gradient-to-r from-violet-400 via-fuchsia-400 to-pink-400 bg-clip-text text-transparent">
+            Extended Rules
+          </span>
+        </h1>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-bold bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+          PuffySMP
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="/crates.html" target="_blank" class="text-sm text-slate-400 hover:text-white transition-colors"><strong>Crates</strong></a>
+          <a href="/ranks.html" target="_blank" class="text-sm text-slate-400 hover:text-white transition-colors">Ranks</a>
+          <a href="/information.html" target="_blank" class="text-sm text-slate-400 hover:text-white transition-colors">Information</a>
+          <a href="/partners.html" target="_blank" class="px-4 py-2 bg-white text-slate-900 rounded-lg text-sm font-medium hover:bg-slate-100 transition-colors">
+            Partners
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+         <h1 style="text-align:center;" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity shadow-lg shadow-violet-500/25">
+PuffySMP is a chill, grief prevention, economy Minecraft server.
+
+
+<br><br>The server is compatible with both Minecraft: Java Edition, and Minecraft: Bedrock Edition. You can join on LATEST - 1.7 for Java Edition, and the latest version of Bedrock Edition.
+
+
+<br><br>You can join at play.PuffySMP.org, or if you're on Bedrock, the port is 25999
+
+
+<br><br>When you join, you start out with $1,000 and 1,000 claimblocks. You can use that money to get some starter gear, get materials to build a base, or buy more claimblocks.
+
+
+<br><br>You can use the claimblocks to claim things, or sell them for more money. Use the golden shovel that you start with to claim land by right clicking on a block, and going to another block. Those 2 blocks that you right clicked would be your corners. The plugin automatically makes the 2 other corners, so you just need to do a diagonal selection.
+
+
+<br><br>To gain more money, you can complete quests, do jobs, sell things, voting, etc. To do the jobs, you can use /jobs browse which opens the jobs menu. With this menu, you can select the job(s) you want to gain money for. These jobs aren't like real life ones that require to be worked at a certain time, at a certain place. When you join a job, it labels information of what you get paid to do. When you to those things that pay you, you also gain job xp for doing it. When you gain job xp, you can level up in that job. As you level up, you get paid more for doing those "tasks".
+          </h1>
+         </div>
+    
+<br><br>
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-slate-800/50">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+        <span class="text-xl font-bold bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+          PuffySMP
+        </span>
+        <div class="flex items-center gap-8 text-sm text-slate-500">
+          <a href="/refund.html" target="_blank" class="hover:text-white transition-colors">Refund Policy</a>
+          <a href="/rules.html" class="hover:text-white transition-colors">Rules</a>
+          <a href="/socials.html" class="hover:text-white transition-colors">Socials</a>
+        </div>
+        <p class="text-sm text-slate-600">  2026 PuffySMP, All rights reserved.</p>
+      </div>
+    </footer>
+    
+  </body>
+</html>
