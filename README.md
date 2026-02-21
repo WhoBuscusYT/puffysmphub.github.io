@@ -2,3 +2,7 @@ This is the official GitHub page for the PuffySMP Hub website. (https://www.puff
 
 If you do not have basic knowledge of HTML and CSS, please do not edit any of this, as that changing something without knowing what it is can break the entire website depending on what was edited.
 If something is wrong on here, you can change it, but please don't be randomly changing things for no reason.
+
+If you want to help add things like crates, or other things to the pages, contact whobuscusyt on Discord.
+
+https://discord.puffysmp.org/
