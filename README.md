@@ -6,3 +6,5 @@ If something is wrong on here, you can change it, but please don't be randomly c
 If you want to help add things like crates, or other things to the pages, contact whobuscusyt on Discord.
 
 https://discord.puffysmp.org/
+https://wiki.puffysmp.org/
+https://shop.puffysmp.org/
